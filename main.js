@@ -1,5 +1,5 @@
 function validateForm() {
-    var campoA = document.getElementById("campoA").value;
+    var campoA = parseFloat(document.getElementById("campoA").value);
     var campoB = document.getElementById("campoB").value;
     
     if (campoB > campoA) {
